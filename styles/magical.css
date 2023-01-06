@@ -1,6 +1,7 @@
 *{
     margin: 0px;
 }
+/* banner styles */
 .banner-container{
     width: 100%;
     height: 100vh;
@@ -24,7 +25,7 @@
     margin: auto;
     padding: 10px;
 }
-/* contact us */
+/* banner contact button styles */
 .btn-primary{
     padding: 15px 35px;
     background-color: aliceblue;
@@ -96,6 +97,7 @@
 .skill-description{
     color: #756d6d;
 }
+/* background liner styles */
 .awlays-section{
     background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%),url('../new-year-new-me-main/images/watch.png');
     background-size: cover;
@@ -108,5 +110,31 @@
     font-size: 50px;
     color: white;
     text-align: left;
-;
+
+}
+/* contact section */
+.contact{
+    display: flex;
+    gap: 100px;
+    background: #000000;
+    padding: 10px;
+}
+.contact .section-title{
+    text-align: left;
+}
+.contact input[type="text"], input[type="email"]{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 25px;
+}
+.contact-details{
+    font-size: 20px;
+    color: white;
+}
+input{
+    height: 64px;
+}
+.contact a{
+    text-decoration: none;
 }
